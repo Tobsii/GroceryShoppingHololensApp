@@ -25,14 +25,18 @@ public class InputManager : MonoBehaviour
         recognizer.StartCapturingGestures();
     }
 
-    private void TapHandler(TappedEventArgs obj)
+    public void TapHandler(TappedEventArgs obj)
     {
         if (isScanningForProducts)
         {
+            // hide ui
+            drawUi.HideAll();
             isScanningForProducts = false;
         }
         else
         {
+            // shows ui
+            drawUi.ShowAllUi();
             isScanningForProducts = true;
         }
 
@@ -40,5 +44,28 @@ public class InputManager : MonoBehaviour
         drawUi.WriteScanInfo(isScanningForProducts);
         Debug.Log("isScanningForProducts: " + isScanningForProducts);
     }
+
+    public void ScanButtonHandler()
+    {
+        if (isScanningForProducts)
+        {
+            // hide ui
+            // change button
+            drawUi.HideAll();
+            isScanningForProducts = false;
+        }
+        else
+        {
+            // shows ui
+            // change button
+            drawUi.ShowAllUi();
+            isScanningForProducts = true;
+        }
+
+        // changeTextofIt.GetComponent<TextMesh>().text = "isScanningForProducts: " + isScanningForProducts;
+        drawUi.WriteScanInfo(isScanningForProducts);
+        Debug.Log("isScanningForProducts: " + isScanningForProducts);
+    }
+
 
 }

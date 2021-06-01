@@ -41,8 +41,8 @@ public class ProductAnalysis : MonoBehaviour
     private void Start()
     {
         Debug.Log("Product Analysis Start");
-        StartCoroutine(DetectProductsFromId(7612100023099));
-        StartCoroutine(DetectBetterProduct(7612100023099));
+        // StartCoroutine(DetectProductsFromId(7613312121443));
+        // StartCoroutine(DetectBetterProduct(7612100023099));
     }
 
 
@@ -75,7 +75,7 @@ public class ProductAnalysis : MonoBehaviour
             FoodObject item = JsonUtility.FromJson<FoodObject>(www.downloadHandler.text);
             Debug.Log(item.success);
             Debug.Log(item.products[0].product_name_de);
-            // CreateLabel(item);
+            
             drawUi.WriteProduct(item);
         }
     }
