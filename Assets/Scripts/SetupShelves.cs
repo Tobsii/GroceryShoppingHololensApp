@@ -85,6 +85,7 @@ public class SetupShelves : MonoBehaviour
 
         // Enable "Product Recognition" Scripts
         GetComponent<RecognizeProducts>().enabled = true;
+        GetComponent<InputManager>().enabled = true;
     }
 
 }

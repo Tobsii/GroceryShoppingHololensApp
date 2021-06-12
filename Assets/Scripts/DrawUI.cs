@@ -40,15 +40,14 @@ public class DrawUI : MonoBehaviour
     public Material ScanOff;
     public GameObject productShelves;
     public GameObject buttonScanOnOff;
-
-
+    public GameObject toggleButtonBackplate;
 
     public void DrawNutriScreen(GameObject plate)
     {
         Debug.Log("Inside Draw NutriScreen");
         
         // Move Screen to right View
-        NutriInfoPlate.transform.position = new Vector3(plate.transform.position.x-0.15f, plate.transform.position.y, plate.transform.position.z-0.1f);
+        // NutriInfoPlate.transform.position = new Vector3(plate.transform.position.x-0.15f, plate.transform.position.y, plate.transform.position.z);
         NutriInfoPlate.GetComponent<RadialView>().enabled = true;
 
         DrawBetterProductTest(plate); //TEST
@@ -152,15 +151,17 @@ public class DrawUI : MonoBehaviour
     public void ShowAllUi()
     {
        productShelves.SetActive(true);
-       m_ScanButtonMaterial.color = Color.red;
-        buttonScanOnOff.GetComponent<MeshRenderer>().material = ScanOn;
+       // m_ScanButtonMaterial.color = Color.red;
+       // buttonScanOnOff.GetComponent<MeshRenderer>().material = ScanOn;
+       toggleButtonBackplate.GetComponent<MeshRenderer>().material = ScanOn;
     }
 
     public void HideAll()
     {
-        m_ScanButtonMaterial.color = Color.blue;
-        buttonScanOnOff.GetComponent<MeshRenderer>().material = ScanOff;
-        productShelves.SetActive(false); 
+        // m_ScanButtonMaterial.color = Color.blue;
+        // buttonScanOnOff.GetComponent<MeshRenderer>().material = ScanOff;
+        productShelves.SetActive(false);
+        toggleButtonBackplate.GetComponent<MeshRenderer>().material = ScanOff;
     }
 
 }

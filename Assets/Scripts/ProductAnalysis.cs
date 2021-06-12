@@ -20,6 +20,7 @@ public class ProductAnalysis : MonoBehaviour
     string api_username = Environment.GetEnvironmentVariable("food_api_user");
     string api_password = Environment.GetEnvironmentVariable("food_api_passwd");
 
+
     // Other scripts
     private DrawUI drawUi;
 

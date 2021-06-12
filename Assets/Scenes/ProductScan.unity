@@ -244,7 +244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: Aproz Classic
+  productName: Aproz Classic (1L)
   productScore: A
   productPrice: 0.75
 --- !u!1 &48763473
@@ -355,7 +355,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 68125180}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.625, y: 0.525, z: 0}
+  m_LocalPosition: {x: -0.625, y: 1, z: 0}
   m_LocalScale: {x: 0.18, y: 0.25, z: 0}
   m_Children:
   - {fileID: 447715544}
@@ -449,7 +449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: "Farmer Bircherm\xFCesli Fit"
+  productName: "Farmer Bircherm\xFCesli Fit (700g)"
   productScore: A
   productPrice: 4.8
 --- !u!1 &86624615
@@ -651,7 +651,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 101793506}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.125, y: 0.175, z: 0}
+  m_LocalPosition: {x: 0.125, y: 0.6, z: 0}
   m_LocalScale: {x: 0.18, y: 0.25, z: 0}
   m_Children:
   - {fileID: 471763418}
@@ -745,7 +745,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: "Alnatura Beeren M\xFCsli"
+  productName: "Alnatura Beeren M\xFCsli (750g)"
   productScore: A
   productPrice: 5.1
 --- !u!1001 &107793772
@@ -777,7 +777,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -892,12 +892,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -936,7 +951,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -1051,12 +1066,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -1082,6 +1112,7 @@ GameObject:
   - component: {fileID: 139340262}
   - component: {fileID: 139340268}
   - component: {fileID: 139340267}
+  - component: {fileID: 139340269}
   m_Layer: 0
   m_Name: TutorialShelf
   m_TagString: Untagged
@@ -1102,6 +1133,7 @@ Transform:
   m_Children:
   - {fileID: 1534418486}
   - {fileID: 482811836}
+  - {fileID: 1350415888}
   m_Father: {fileID: 1136480012}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1132,12 +1164,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hostTransform: {fileID: 139340261}
-  manipulationType: 1
+  manipulationType: -1
   twoHandedManipulationType: 7
   allowFarManipulation: 1
   useForcesForNearManipulation: 0
-  oneHandRotationModeNear: 1
-  oneHandRotationModeFar: 1
+  oneHandRotationModeNear: 0
+  oneHandRotationModeFar: 0
   releaseBehavior: 3
   smoothingFar: 1
   smoothingNear: 1
@@ -1171,8 +1203,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a98de877dee5fc341b4eb59dfdab266c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  autoConstraintSelection: 1
-  selectedConstraints: []
+  autoConstraintSelection: 0
+  selectedConstraints:
+  - {fileID: 139340268}
+  - {fileID: 139340267}
+  - {fileID: 139340269}
 --- !u!65 &139340265
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1209,6 +1244,11 @@ MonoBehaviour:
     Radius: 0
     Transform: {fileID: 482811836}
     Colliders: []
+  - Name: Cube
+    Offset: {x: 0, y: 0}
+    Radius: 0
+    Transform: {fileID: 1350415888}
+    Colliders: []
   ignoreInactiveTransforms: 1
   sortType: 1
   surfaceType: 1
@@ -1221,10 +1261,10 @@ MonoBehaviour:
   radius: 2
   radialRange: 180
   distance: 0
-  rows: 1
+  rows: 2
   columns: 2
-  cellWidth: 0.23
-  cellHeight: 0.35
+  cellWidth: 0.2
+  cellHeight: 0.3
   assetVersion: 1
 --- !u!114 &139340267
 MonoBehaviour:
@@ -1254,7 +1294,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handType: 3
   proximityType: 3
-  constraintOnRotation: 0
+  constraintOnRotation: 2
+  useLocalSpaceForConstraint: 0
+--- !u!114 &139340269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139340260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3e6359c9750ad4fb8a05c9b8704d7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handType: 3
+  proximityType: 3
+  constraintOnRotation: 4
   useLocalSpaceForConstraint: 0
 --- !u!1001 &149293710
 PrefabInstance:
@@ -1285,7 +1341,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -1400,12 +1456,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -1444,7 +1515,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 161760282}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.15000002, y: 0.1, z: 0}
+  m_LocalPosition: {x: 0.15000002, y: 0.435, z: 0}
   m_LocalScale: {x: 0.1, y: 0.15, z: 0}
   m_Children:
   - {fileID: 1784487527}
@@ -1538,7 +1609,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: "M-Classig Mokka l\xE9ger"
+  productName: "M-Classig Mokka l\xE9ger (180g)"
   productScore: A
   productPrice: 0.5
 --- !u!1001 &192337933
@@ -1570,7 +1641,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -1685,12 +1756,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -1729,7 +1815,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 193244114}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.625, y: 0.175, z: 0}
+  m_LocalPosition: {x: -0.625, y: 0.6, z: 0}
   m_LocalScale: {x: 0.18, y: 0.25, z: 0}
   m_Children:
   - {fileID: 1995888258}
@@ -1823,7 +1909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: "Farmer Bircherm\xFCesli Fit"
+  productName: "Farmer Bircherm\xFCesli Fit (700g)"
   productScore: A
   productPrice: 4.8
 --- !u!1 &212375301
@@ -1949,9 +2035,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: Alnavit Cranberrysaft
-  productScore: D
-  productPrice: 4.95
+  productName: Valflora Milch (1L)
+  productScore: B
+  productPrice: 1.35
 --- !u!1001 &222635594
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2331,7 +2417,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -2446,12 +2532,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -2584,7 +2685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: Alnavit Cranberrysaft
+  productName: Alnavit Cranberrysaft (0.33L)
   productScore: D
   productPrice: 4.95
 --- !u!1 &351086805
@@ -2817,7 +2918,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -2932,12 +3033,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -2976,12 +3092,17 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_Color.g
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 224000011042862180, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -3041,7 +3162,7 @@ PrefabInstance:
     - target: {fileID: 224000011042862180, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 0.016
       objectReference: {fileID: 0}
     - target: {fileID: 224000011042862180, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -3091,12 +3212,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 594
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -3135,7 +3271,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 459424410}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.125, y: 0.175, z: 0}
+  m_LocalPosition: {x: -0.125, y: 0.6, z: 0}
   m_LocalScale: {x: 0.18, y: 0.25, z: 0}
   m_Children:
   - {fileID: 122562937}
@@ -3229,7 +3365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: M-Budget Cornflakes
+  productName: M-Budget Cornflakes (600g)
   productScore: A
   productPrice: 1.55
 --- !u!1001 &471763417
@@ -3261,7 +3397,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -3376,12 +3512,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -3420,7 +3571,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482811835}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.115, y: 0.175, z: 0}
+  m_LocalPosition: {x: 0.1, y: 0.45000002, z: 0}
   m_LocalScale: {x: 0.18, y: 0.25, z: 0}
   m_Children:
   - {fileID: 1955959642}
@@ -3439,9 +3590,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: Alnatura Sojadrink Kalzium
+  productName: Alnatura Sojadrink Kalzium (1L)
   productScore: A
-  productPrice: 0
+  productPrice: 2.3
 --- !u!114 &482811838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3454,7 +3605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f989d25d2d48384ab2bffcb7fb666ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 4104420095021
+  id: 7617027620857
   vegan: 1
   vegetarisch: 1
 --- !u!65 &482811839
@@ -3613,7 +3764,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -3728,12 +3879,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -3772,7 +3938,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -3887,12 +4053,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -4111,9 +4292,62 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: Rivella Blau
+  productName: Rivella Blau (0.5L)
   productScore: C
   productPrice: 1.45
+--- !u!1 &629637266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 629637267}
+  - component: {fileID: 629637269}
+  - component: {fileID: 629637268}
+  m_Layer: 0
+  m_Name: ShelfBackplate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &629637267
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629637266}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3, y: 0.14500003, z: 0}
+  m_LocalScale: {x: 0.73931, y: 0.37676144, z: 0.0061692866}
+  m_Children: []
+  m_Father: {fileID: 1638086966}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &629637268
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629637266}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &629637269
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629637266}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &632286268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4143,7 +4377,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -4258,12 +4492,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -4285,6 +4534,55 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1230472746}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &667300224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667300222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4684083f6dff4a1d8a790bccc354fcf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateLinkedTransform: 0
+  moveLerpTime: 0.1
+  rotateLerpTime: 0.1
+  scaleLerpTime: 0
+  maintainScale: 1
+  smoothing: 1
+  lifetime: 0
+  referenceDirection: 1
+  minDistance: 0.4
+  maxDistance: 0.4
+  minViewDegrees: 0
+  maxViewDegrees: 0
+  aspectV: 1
+  ignoreAngleClamp: 0
+  ignoreDistanceClamp: 0
+  useFixedVerticalPosition: 1
+  fixedVerticalPosition: -0.1
+  orientToReferenceDirection: 0
+--- !u!114 &667300225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667300222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b55691ad5b034fe6966763a6e23818d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trackedTargetType: 0
+  trackedHandness: 3
+  trackedHandJoint: 2
+  transformOverride: {fileID: 0}
+  additionalOffset: {x: 0, y: 0, z: 0}
+  additionalRotation: {x: 0, y: 0, z: 0}
+  updateSolvers: 1
 --- !u!1 &681686726
 GameObject:
   m_ObjectHideFlags: 0
@@ -4314,7 +4612,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 681686726}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3, y: 0.3, z: 0}
+  m_LocalPosition: {x: -0.3, y: 0.725, z: 0}
   m_LocalScale: {x: 0.1, y: 0.15, z: 0}
   m_Children:
   - {fileID: 1644282271}
@@ -4408,7 +4706,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: Chiefs Pudding Choco
+  productName: Chiefs Pudding Choco (200g)
   productScore: A
   productPrice: 2.65
 --- !u!1001 &686867293
@@ -4440,7 +4738,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -4555,12 +4853,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -4589,7 +4902,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 18
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
@@ -4654,12 +4967,12 @@ PrefabInstance:
     - target: {fileID: 224000011042862180, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.023
+      value: 0.129
       objectReference: {fileID: 0}
     - target: {fileID: 224000011042862180, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.17750148
+      value: -0.27
       objectReference: {fileID: 0}
     - target: {fileID: 224000011042862180, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
@@ -4704,12 +5017,12 @@ PrefabInstance:
     - target: {fileID: 224000011042862180, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.003571429
+      value: 0.004474581
       objectReference: {fileID: 0}
     - target: {fileID: 224000011042862180, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.00625
+      value: 0.01048397
       objectReference: {fileID: 0}
     - target: {fileID: 224000011042862180, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
@@ -4829,10 +5142,11 @@ MonoBehaviour:
   betterProductPrice: {fileID: 1597062326}
   m_ScanButtonMaterial: {fileID: 2100000, guid: 668d5dbc7efeb484d8529719abfaa299,
     type: 2}
-  ScanOn: {fileID: 0}
-  ScanOff: {fileID: 0}
+  ScanOn: {fileID: 2100000, guid: 668d5dbc7efeb484d8529719abfaa299, type: 2}
+  ScanOff: {fileID: 2100000, guid: 21a3c7ba5e978324db3eacdaacf8bb88, type: 2}
   productShelves: {fileID: 1136480011}
-  buttonScanOnOff: {fileID: 0}
+  buttonScanOnOff: {fileID: 833522854}
+  toggleButtonBackplate: {fileID: 7490947721506873771}
 --- !u!114 &722553125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4840,7 +5154,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 722553122}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e351bb654f4db68459c8ffe4afd52e24, type: 3}
   m_Name: 
@@ -5048,7 +5362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: Bio Aproz Mint Lime
+  productName: Bio Aproz Mint Lime (1L)
   productScore: B
   productPrice: 1.25
 --- !u!1 &761580494
@@ -5223,7 +5537,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -5338,12 +5652,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -5544,7 +5873,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 780769269}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3, y: 0.3, z: 0}
+  m_LocalPosition: {x: 0.3, y: 0.725, z: 0}
   m_LocalScale: {x: 0.1, y: 0.15, z: 0}
   m_Children:
   - {fileID: 1840241385}
@@ -5638,7 +5967,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: Alnatura Soja Natur
+  productName: Alnatura Soja Natur (400g)
   productScore: A
   productPrice: 2.2
 --- !u!1001 &797146861
@@ -5670,7 +5999,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -5785,12 +6114,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -5817,6 +6161,7 @@ GameObject:
   - component: {fileID: 804331368}
   - component: {fileID: 804331367}
   - component: {fileID: 804331369}
+  - component: {fileID: 804331370}
   m_Layer: 0
   m_Name: CerealShelf
   m_TagString: Untagged
@@ -5832,7 +6177,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 804331360}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.007, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 68125181}
@@ -5847,6 +6192,7 @@ Transform:
   - {fileID: 101793507}
   - {fileID: 1542011571}
   - {fileID: 1952712847}
+  - {fileID: 1271160470}
   m_Father: {fileID: 1136480012}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5923,6 +6269,11 @@ MonoBehaviour:
     Radius: 0
     Transform: {fileID: 1952712847}
     Colliders: []
+  - Name: ShelfBackplate
+    Offset: {x: 0, y: 0}
+    Radius: 0
+    Transform: {fileID: 1271160470}
+    Colliders: []
   ignoreInactiveTransforms: 1
   sortType: 1
   surfaceType: 1
@@ -5935,10 +6286,10 @@ MonoBehaviour:
   radius: 2
   radialRange: 180
   distance: 0
-  rows: 2
+  rows: 3
   columns: 6
   cellWidth: 0.25
-  cellHeight: 0.35
+  cellHeight: 0.4
   assetVersion: 1
 --- !u!65 &804331363
 BoxCollider:
@@ -5951,8 +6302,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5181309, y: 0.7241533, z: 0.10382402}
-  m_Center: {x: 0.011287272, y: 0.33489454, z: 0.0101284385}
+  m_Size: {x: 1.5181309, y: 0.73404694, z: 0.2039094}
+  m_Center: {x: 0.011287272, y: 0.8122506, z: -0.012952447}
 --- !u!114 &804331364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5980,12 +6331,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hostTransform: {fileID: 804331361}
-  manipulationType: 1
+  manipulationType: -1
   twoHandedManipulationType: 7
   allowFarManipulation: 1
   useForcesForNearManipulation: 0
-  oneHandRotationModeNear: 1
-  oneHandRotationModeFar: 1
+  oneHandRotationModeNear: 0
+  oneHandRotationModeFar: 0
   releaseBehavior: 3
   smoothingFar: 1
   smoothingNear: 1
@@ -6019,8 +6370,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a98de877dee5fc341b4eb59dfdab266c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  autoConstraintSelection: 1
-  selectedConstraints: []
+  autoConstraintSelection: 0
+  selectedConstraints:
+  - {fileID: 804331368}
+  - {fileID: 804331367}
+  - {fileID: 804331369}
+  - {fileID: 804331370}
 --- !u!114 &804331367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6049,7 +6404,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handType: 3
   proximityType: 3
-  constraintOnRotation: 0
+  constraintOnRotation: 2
   useLocalSpaceForConstraint: 0
 --- !u!114 &804331369
 MonoBehaviour:
@@ -6065,6 +6420,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handType: 3
   proximityType: 3
+--- !u!114 &804331370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804331360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3e6359c9750ad4fb8a05c9b8704d7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handType: 3
+  proximityType: 3
+  constraintOnRotation: 4
+  useLocalSpaceForConstraint: 0
 --- !u!1 &816826167
 GameObject:
   m_ObjectHideFlags: 0
@@ -6264,7 +6635,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 819384890}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3, y: 0.1, z: 0}
+  m_LocalPosition: {x: -0.3, y: 0.435, z: 0}
   m_LocalScale: {x: 0.1, y: 0.15, z: 0}
   m_Children:
   - {fileID: 281124236}
@@ -6358,7 +6729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: "M-Classig Mokka l\xE9ger"
+  productName: "M-Classig Mokka l\xE9ger (180g)"
   productScore: A
   productPrice: 0.5
 --- !u!1 &833522854
@@ -6564,7 +6935,7 @@ PrefabInstance:
     - target: {fileID: 3885370232023760435, guid: 36ff76a9e7929f342915274725573e00,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.66999996
+      value: -0.636
       objectReference: {fileID: 0}
     - target: {fileID: 3885370232023760435, guid: 36ff76a9e7929f342915274725573e00,
         type: 3}
@@ -6656,6 +7027,11 @@ PrefabInstance:
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PlaceCerealShelf
       objectReference: {fileID: 0}
+    - target: {fileID: 5956172336509982321, guid: 36ff76a9e7929f342915274725573e00,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6067011529271591208, guid: 36ff76a9e7929f342915274725573e00,
         type: 3}
       propertyPath: m_Sprite
@@ -6701,6 +7077,55 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 854991340}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &854991343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854991342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4684083f6dff4a1d8a790bccc354fcf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateLinkedTransform: 0
+  moveLerpTime: 0.1
+  rotateLerpTime: 0.1
+  scaleLerpTime: 0
+  maintainScale: 1
+  smoothing: 1
+  lifetime: 0
+  referenceDirection: 1
+  minDistance: 0.4
+  maxDistance: 0.4
+  minViewDegrees: 0
+  maxViewDegrees: 0
+  aspectV: 1
+  ignoreAngleClamp: 0
+  ignoreDistanceClamp: 0
+  useFixedVerticalPosition: 1
+  fixedVerticalPosition: -0.01
+  orientToReferenceDirection: 0
+--- !u!114 &854991344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854991342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b55691ad5b034fe6966763a6e23818d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trackedTargetType: 0
+  trackedHandness: 3
+  trackedHandJoint: 2
+  transformOverride: {fileID: 0}
+  additionalOffset: {x: 0, y: 0, z: 0}
+  additionalRotation: {x: 0, y: 0, z: 0}
+  updateSolvers: 1
 --- !u!1 &864221998
 GameObject:
   m_ObjectHideFlags: 0
@@ -6730,7 +7155,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 864221998}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.14999999, y: 0.3, z: 0}
+  m_LocalPosition: {x: -0.14999999, y: 0.725, z: 0}
   m_LocalScale: {x: 0.1, y: 0.15, z: 0}
   m_Children:
   - {fileID: 544228703}
@@ -6824,7 +7249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: "M-Classig Mokka l\xE9ger"
+  productName: "M-Classig Mokka l\xE9ger (180g)"
   productScore: A
   productPrice: 0.5
 --- !u!1 &877838058
@@ -7003,7 +7428,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -7118,12 +7543,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -7808,7 +8248,7 @@ PrefabInstance:
     - target: {fileID: 3885370232023760435, guid: 36ff76a9e7929f342915274725573e00,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.67
+      value: -0.63600004
       objectReference: {fileID: 0}
     - target: {fileID: 3885370232023760435, guid: 36ff76a9e7929f342915274725573e00,
         type: 3}
@@ -7930,6 +8370,55 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 966636192}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &966636195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966636194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4684083f6dff4a1d8a790bccc354fcf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateLinkedTransform: 0
+  moveLerpTime: 0.1
+  rotateLerpTime: 0.1
+  scaleLerpTime: 0
+  maintainScale: 1
+  smoothing: 1
+  lifetime: 0
+  referenceDirection: 1
+  minDistance: 0.4
+  maxDistance: 0.4
+  minViewDegrees: 0
+  maxViewDegrees: 0
+  aspectV: 1
+  ignoreAngleClamp: 0
+  ignoreDistanceClamp: 0
+  useFixedVerticalPosition: 1
+  fixedVerticalPosition: -0.1
+  orientToReferenceDirection: 0
+--- !u!114 &966636196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966636194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b55691ad5b034fe6966763a6e23818d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trackedTargetType: 0
+  trackedHandness: 3
+  trackedHandJoint: 2
+  transformOverride: {fileID: 0}
+  additionalOffset: {x: 0, y: 0, z: 0}
+  additionalRotation: {x: 0, y: 0, z: 0}
+  updateSolvers: 1
 --- !u!1 &1008980168
 GameObject:
   m_ObjectHideFlags: 0
@@ -7959,7 +8448,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1008980168}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.375, y: 0.525, z: 0}
+  m_LocalPosition: {x: 0.375, y: 1, z: 0}
   m_LocalScale: {x: 0.18, y: 0.25, z: 0}
   m_Children:
   - {fileID: 935465099}
@@ -8053,7 +8542,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: Alnatura Haferflocken Feinblatt
+  productName: Alnatura Haferflocken Feinblatt (500g)
   productScore: A
   productPrice: 1.4
 --- !u!1001 &1028376939
@@ -8085,7 +8574,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -8200,12 +8689,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -8244,7 +8748,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -8359,12 +8863,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -8403,7 +8922,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -8518,12 +9037,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -8629,7 +9163,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -8744,12 +9278,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -8788,7 +9337,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1111213057}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.375, y: 0.525, z: 0}
+  m_LocalPosition: {x: -0.375, y: 1, z: 0}
   m_LocalScale: {x: 0.18, y: 0.25, z: 0}
   m_Children:
   - {fileID: 409129127}
@@ -8882,7 +9431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: "Alnatura Beeren M\xFCsli"
+  productName: "Alnatura Beeren M\xFCsli (750g)"
   productScore: A
   productPrice: 5.1
 --- !u!1 &1120868062
@@ -9002,7 +9551,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1136480011}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.9}
+  m_LocalPosition: {x: 0, y: -0.33, z: 0.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1638086966}
@@ -9493,7 +10042,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: Alnatura Sojadrink Kalzium
+  productName: Alnatura Sojadrink Kalzium (1L)
   productScore: A
   productPrice: 1.65
 --- !u!1001 &1176926200
@@ -9608,7 +10157,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -9723,12 +10272,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -10201,7 +10765,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: M-Budget Grapefriut Zero
+  productName: M-Budget Grapefriut Zero (1.5L)
   productScore: C
   productPrice: 0.55
 --- !u!1 &1250478664
@@ -10233,7 +10797,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1250478664}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.625, y: 0.525, z: 0}
+  m_LocalPosition: {x: 0.625, y: 1, z: 0}
   m_LocalScale: {x: 0.18, y: 0.25, z: 0}
   m_Children:
   - {fileID: 1581049537}
@@ -10327,7 +10891,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: "Alnatura Beeren M\xFCesli"
+  productName: "Alnatura Beeren M\xFCesli (750g)"
   productScore: A
   productPrice: 5.1
 --- !u!224 &1270689884 stripped
@@ -10336,6 +10900,59 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1474886107}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1271160469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1271160470}
+  - component: {fileID: 1271160472}
+  - component: {fileID: 1271160471}
+  m_Layer: 0
+  m_Name: ShelfBackplate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1271160470
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271160469}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.625, y: 0.20000003, z: 0}
+  m_LocalScale: {x: 1.4872828, y: 0.6284259, z: -0.010555}
+  m_Children: []
+  m_Father: {fileID: 804331361}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1271160471
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271160469}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1271160472
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271160469}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1274036531
 GameObject:
   m_ObjectHideFlags: 0
@@ -10459,7 +11076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: Alnatura Sojadrink Kalzium
+  productName: Alnatura Sojadrink Kalzium (1L)
   productScore: A
   productPrice: 1.65
 --- !u!1001 &1284964592
@@ -10491,7 +11108,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -10606,12 +11223,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -10708,8 +11340,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1296946617}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0117, y: -0.1155, z: -0.004}
-  m_LocalScale: {x: 0.14, y: 0.08, z: 0.02}
+  m_LocalPosition: {x: -0.0229, y: -0.0491, z: -0.004}
+  m_LocalScale: {x: 0.111742355, y: 0.04769187, z: 0.02}
   m_Children:
   - {fileID: 1532851216}
   - {fileID: 719793233}
@@ -10746,7 +11378,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1297491397}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.000000014901161, y: 0.3, z: 0}
+  m_LocalPosition: {x: 0.000000014901161, y: 0.725, z: 0}
   m_LocalScale: {x: 0.1, y: 0.15, z: 0}
   m_Children:
   - {fileID: 797146862}
@@ -10840,7 +11472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: Chiefs Pudding Choco
+  productName: Chiefs Pudding Choco (200g)
   productScore: A
   productPrice: 2.65
 --- !u!1001 &1299212865
@@ -11024,6 +11656,7 @@ GameObject:
   - component: {fileID: 1308861032}
   - component: {fileID: 1308861031}
   - component: {fileID: 1308861033}
+  - component: {fileID: 1308861034}
   m_Layer: 0
   m_Name: DrinkShelf
   m_TagString: Untagged
@@ -11058,12 +11691,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hostTransform: {fileID: 1308861030}
-  manipulationType: 1
+  manipulationType: -1
   twoHandedManipulationType: 7
   allowFarManipulation: 1
   useForcesForNearManipulation: 0
-  oneHandRotationModeNear: 1
-  oneHandRotationModeFar: 1
+  oneHandRotationModeNear: 0
+  oneHandRotationModeFar: 0
   releaseBehavior: 3
   smoothingFar: 1
   smoothingNear: 1
@@ -11071,7 +11704,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 1308861027}
+  constraintsManager: {fileID: 139340264}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -11097,8 +11730,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a98de877dee5fc341b4eb59dfdab266c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  autoConstraintSelection: 1
-  selectedConstraints: []
+  autoConstraintSelection: 0
+  selectedConstraints:
+  - {fileID: 1308861032}
+  - {fileID: 1308861031}
+  - {fileID: 1308861033}
+  - {fileID: 1308861034}
 --- !u!65 &1308861028
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11205,7 +11842,7 @@ MonoBehaviour:
   rows: 2
   columns: 7
   cellWidth: 0.23
-  cellHeight: 0.35
+  cellHeight: 0.4
   assetVersion: 1
 --- !u!4 &1308861030
 Transform:
@@ -11231,6 +11868,7 @@ Transform:
   - {fileID: 748355933}
   - {fileID: 616102544}
   - {fileID: 1248700535}
+  - {fileID: 1629043277}
   m_Father: {fileID: 1136480012}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11262,7 +11900,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handType: 3
   proximityType: 3
-  constraintOnRotation: 0
+  constraintOnRotation: 2
   useLocalSpaceForConstraint: 0
 --- !u!114 &1308861033
 MonoBehaviour:
@@ -11278,6 +11916,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handType: 3
   proximityType: 3
+--- !u!114 &1308861034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308861024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3e6359c9750ad4fb8a05c9b8704d7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handType: 3
+  proximityType: 3
+  constraintOnRotation: 4
+  useLocalSpaceForConstraint: 0
 --- !u!1 &1312274207
 GameObject:
   m_ObjectHideFlags: 0
@@ -11439,7 +12093,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: M-Budget Grapefriut Zero
+  productName: M-Budget Grapefriut Zero (1.5L)
   productScore: C
   productPrice: 0.55
 --- !u!1001 &1328680277
@@ -11471,7 +12125,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -11586,12 +12240,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -11665,6 +12334,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 102000010767390410, guid: f6038dfbe1e1bd14dac07b1405ccda54,
+        type: 3}
+      propertyPath: m_Text
+      value: 'isScanningForProducts: True'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6038dfbe1e1bd14dac07b1405ccda54, type: 3}
 --- !u!1 &1336101166 stripped
@@ -11679,6 +12353,59 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1336101165}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1350415887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1350415888}
+  - component: {fileID: 1350415890}
+  - component: {fileID: 1350415889}
+  m_Layer: 0
+  m_Name: ShelfBackplate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1350415888
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350415887}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1, y: 0.15, z: 0}
+  m_LocalScale: {x: 0.45388675, y: 0.29578233, z: 0.010625}
+  m_Children: []
+  m_Father: {fileID: 139340261}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1350415889
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350415887}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1350415890
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350415887}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1354822747
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11882,7 +12609,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -11997,12 +12724,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -12041,7 +12783,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1387855813}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.125, y: 0.525, z: 0}
+  m_LocalPosition: {x: 0.125, y: 1, z: 0}
   m_LocalScale: {x: 0.18, y: 0.25, z: 0}
   m_Children:
   - {fileID: 107793773}
@@ -12135,7 +12877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: "Farmer Bircherm\xFCesli Fir"
+  productName: "Farmer Bircherm\xFCesli Fit (700g)"
   productScore: A
   productPrice: 4.8
 --- !u!1001 &1474886107
@@ -12413,7 +13155,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1532557537}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.125, y: 0.525, z: 0}
+  m_LocalPosition: {x: -0.125, y: 1, z: 0}
   m_LocalScale: {x: 0.18, y: 0.25, z: 0}
   m_Children:
   - {fileID: 1387265686}
@@ -12507,7 +13249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: "Alnatura Beeren M\xFCsli"
+  productName: "Alnatura Beeren M\xFCsli (750g)"
   productScore: A
   productPrice: 5.1
 --- !u!1001 &1532851215
@@ -12529,7 +13271,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 18
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
@@ -12594,12 +13336,12 @@ PrefabInstance:
     - target: {fileID: 224000011042862180, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.03
+      value: 0.13155273
       objectReference: {fileID: 0}
     - target: {fileID: 224000011042862180, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.13000013
+      value: 0.009999402
       objectReference: {fileID: 0}
     - target: {fileID: 224000011042862180, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
@@ -12644,12 +13386,12 @@ PrefabInstance:
     - target: {fileID: 224000011042862180, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.003571429
+      value: 0.0044745817
       objectReference: {fileID: 0}
     - target: {fileID: 224000011042862180, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.00625
+      value: 0.010483971
       objectReference: {fileID: 0}
     - target: {fileID: 224000011042862180, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
@@ -12659,17 +13401,17 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1.35
+      value: -24
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 240
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 30
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
@@ -12679,7 +13421,7 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 80
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df8fcda444f30864dadb44d21f057e61, type: 3}
@@ -12730,7 +13472,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1534418485}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.115, y: 0.175, z: 0}
+  m_LocalPosition: {x: -0.1, y: 0.45000002, z: 0}
   m_LocalScale: {x: 0.18, y: 0.25, z: 0}
   m_Children:
   - {fileID: 964971641}
@@ -12749,9 +13491,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: Alnatura Sojadrink Kalzium
+  productName: Alnatura Sojadrink Kalzium (1L)
   productScore: A
-  productPrice: 0
+  productPrice: 1.9
 --- !u!114 &1534418488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12764,8 +13506,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f989d25d2d48384ab2bffcb7fb666ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 22125880
-  vegan: 0
+  id: 7613269595687
+  vegan: 1
   vegetarisch: 1
 --- !u!65 &1534418489
 BoxCollider:
@@ -12950,7 +13692,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: Alnatura Sojadrink Kalzium
+  productName: Alnatura Sojadrink Kalzium (1L)
   productScore: A
   productPrice: 1.65
 --- !u!1 &1542011570
@@ -12982,7 +13724,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1542011570}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.375, y: 0.175, z: 0}
+  m_LocalPosition: {x: 0.375, y: 0.6, z: 0}
   m_LocalScale: {x: 0.18, y: 0.25, z: 0}
   m_Children:
   - {fileID: 1767568222}
@@ -13076,7 +13818,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: Alnatura Fruchtschnitte Beeren
+  productName: Alnatura Fruchtschnitte Beeren (75g)
   productScore: C
   productPrice: 2.25
 --- !u!1001 &1570157190
@@ -13108,7 +13850,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -13223,12 +13965,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -13267,7 +14024,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -13382,12 +14139,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -13416,7 +14188,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 18
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
@@ -13481,12 +14253,12 @@ PrefabInstance:
     - target: {fileID: 224000011042862180, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1.326
+      value: -1.561
       objectReference: {fileID: 0}
     - target: {fileID: 224000011042862180, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.45874956
+      value: -0.97
       objectReference: {fileID: 0}
     - target: {fileID: 224000011042862180, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
@@ -13531,12 +14303,12 @@ PrefabInstance:
     - target: {fileID: 224000011042862180, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.003571429
+      value: 0.004474581
       objectReference: {fileID: 0}
     - target: {fileID: 224000011042862180, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.00625
+      value: 0.01048397
       objectReference: {fileID: 0}
     - target: {fileID: 224000011042862180, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
@@ -13556,7 +14328,7 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 30
+      value: 71
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: df8fcda444f30864dadb44d21f057e61,
         type: 3}
@@ -13711,9 +14483,62 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: Aproz Classic
+  productName: Aproz Classic (1L)
   productScore: A
   productPrice: 0.75
+--- !u!1 &1629043276
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1629043277}
+  - component: {fileID: 1629043279}
+  - component: {fileID: 1629043278}
+  m_Layer: 0
+  m_Name: ShelfBackplate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1629043277
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629043276}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.363, z: 0.029}
+  m_LocalScale: {x: 1.6089718, y: 0.66957927, z: 0.015469209}
+  m_Children: []
+  m_Father: {fileID: 1308861030}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1629043278
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629043276}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1629043279
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629043276}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1638086965
 GameObject:
   m_ObjectHideFlags: 0
@@ -13732,6 +14557,7 @@ GameObject:
   - component: {fileID: 1638086968}
   - component: {fileID: 1638086975}
   - component: {fileID: 1638086974}
+  - component: {fileID: 1638086976}
   m_Layer: 0
   m_Name: YoghurtShelf
   m_TagString: Untagged
@@ -13760,6 +14586,7 @@ Transform:
   - {fileID: 1761950613}
   - {fileID: 161760283}
   - {fileID: 1992603794}
+  - {fileID: 629637267}
   m_Father: {fileID: 1136480012}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13826,6 +14653,11 @@ MonoBehaviour:
     Radius: 0
     Transform: {fileID: 1992603794}
     Colliders: []
+  - Name: ShelfBackplate
+    Offset: {x: 0, y: 0}
+    Radius: 0
+    Transform: {fileID: 629637267}
+    Colliders: []
   ignoreInactiveTransforms: 1
   sortType: 1
   surfaceType: 1
@@ -13838,10 +14670,10 @@ MonoBehaviour:
   radius: 2
   radialRange: 180
   distance: 0
-  rows: 2
+  rows: 3
   columns: 5
   cellWidth: 0.15
-  cellHeight: 0.2
+  cellHeight: 0.29
   assetVersion: 1
 --- !u!114 &1638086968
 MonoBehaviour:
@@ -13868,8 +14700,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.71648544, y: 0.4147142, z: 0.09817201}
-  m_Center: {x: -0.029017836, y: 0.2005306, z: -0.0073830783}
+  m_Size: {x: 0.79039943, y: 0.52324224, z: 0.09817201}
+  m_Center: {x: -0.001911819, y: 0.5902473, z: -0.0073830783}
 --- !u!114 &1638086970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13884,7 +14716,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handType: -1
   proximityType: 3
-  constraintOnRotation: 0
+  constraintOnRotation: 2
   useLocalSpaceForConstraint: 0
 --- !u!114 &1638086971
 MonoBehaviour:
@@ -13913,12 +14745,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hostTransform: {fileID: 1638086966}
-  manipulationType: 1
+  manipulationType: -1
   twoHandedManipulationType: 7
   allowFarManipulation: 1
   useForcesForNearManipulation: 0
-  oneHandRotationModeNear: 1
-  oneHandRotationModeFar: 1
+  oneHandRotationModeNear: 0
+  oneHandRotationModeFar: 0
   releaseBehavior: 3
   smoothingFar: 1
   smoothingNear: 1
@@ -13952,8 +14784,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a98de877dee5fc341b4eb59dfdab266c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  autoConstraintSelection: 1
-  selectedConstraints: []
+  autoConstraintSelection: 0
+  selectedConstraints:
+  - {fileID: 1638086970}
+  - {fileID: 1638086968}
+  - {fileID: 1638086975}
+  - {fileID: 1638086976}
 --- !u!114 &1638086974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13982,6 +14818,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handType: 3
   proximityType: 3
+--- !u!114 &1638086976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638086965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3e6359c9750ad4fb8a05c9b8704d7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handType: 3
+  proximityType: 3
+  constraintOnRotation: 4
+  useLocalSpaceForConstraint: 0
 --- !u!1001 &1644282270
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14011,7 +14863,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -14126,12 +14978,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -14264,7 +15131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: Rivella Blau
+  productName: Rivella Blau (0.5L)
   productScore: C
   productPrice: 1.45
 --- !u!1001 &1662685929
@@ -14460,7 +15327,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -14575,12 +15442,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -14619,7 +15501,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -14734,12 +15616,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -14778,7 +15675,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1761950612}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.000000014901161, y: 0.1, z: 0}
+  m_LocalPosition: {x: 0.000000014901161, y: 0.435, z: 0}
   m_LocalScale: {x: 0.1, y: 0.15, z: 0}
   m_Children:
   - {fileID: 1028376940}
@@ -14872,7 +15769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: Chiefs Pudding Choco
+  productName: Chiefs Pudding Choco (200g)
   productScore: A
   productPrice: 2.65
 --- !u!1001 &1767568221
@@ -14904,7 +15801,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -15019,12 +15916,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -15144,7 +16056,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -15259,12 +16171,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -15334,7 +16261,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -15449,12 +16376,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -15587,7 +16529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: Aproz Classic
+  productName: Aproz Classic (1L)
   productScore: A
   productPrice: 0.75
 --- !u!1 &1836396173
@@ -15619,7 +16561,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1836396173}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.375, y: 0.175, z: 0}
+  m_LocalPosition: {x: -0.375, y: 0.6, z: 0}
   m_LocalScale: {x: 0.18, y: 0.25, z: 0}
   m_Children:
   - {fileID: 1050869994}
@@ -15713,7 +16655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: Alnatura Haferflocken Feinblatt
+  productName: Alnatura Haferflocken Feinblatt (500g)
   productScore: A
   productPrice: 1.4
 --- !u!1001 &1840148094
@@ -15745,7 +16687,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -15860,12 +16802,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -15904,7 +16861,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -16019,12 +16976,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -16119,7 +17091,7 @@ PrefabInstance:
     - target: {fileID: 3885370232023760435, guid: 36ff76a9e7929f342915274725573e00,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.67
+      value: -0.63600004
       objectReference: {fileID: 0}
     - target: {fileID: 3885370232023760435, guid: 36ff76a9e7929f342915274725573e00,
         type: 3}
@@ -16241,6 +17213,55 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1843673638}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1843673641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843673640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4684083f6dff4a1d8a790bccc354fcf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateLinkedTransform: 0
+  moveLerpTime: 0.1
+  rotateLerpTime: 0.1
+  scaleLerpTime: 0
+  maintainScale: 1
+  smoothing: 1
+  lifetime: 0
+  referenceDirection: 1
+  minDistance: 0.4
+  maxDistance: 0.4
+  minViewDegrees: 0
+  maxViewDegrees: 0
+  aspectV: 1
+  ignoreAngleClamp: 0
+  ignoreDistanceClamp: 0
+  useFixedVerticalPosition: 1
+  fixedVerticalPosition: -0.1
+  orientToReferenceDirection: 0
+--- !u!114 &1843673642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843673640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b55691ad5b034fe6966763a6e23818d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trackedTargetType: 0
+  trackedHandness: 3
+  trackedHandJoint: 2
+  transformOverride: {fileID: 0}
+  additionalOffset: {x: 0, y: 0, z: 0}
+  additionalRotation: {x: 0, y: 0, z: 0}
+  updateSolvers: 1
 --- !u!1001 &1856576307
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16439,7 +17460,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1952712846}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.625, y: 0.175, z: 0}
+  m_LocalPosition: {x: 0.625, y: 0.6, z: 0}
   m_LocalScale: {x: 0.18, y: 0.25, z: 0}
   m_Children:
   - {fileID: 1727392329}
@@ -16533,7 +17554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: Alnatura Fruchtschnitte Beeren
+  productName: ' Alnatura Fruchtschnitte Beeren (75g)'
   productScore: C
   productPrice: 2.25
 --- !u!224 &1955959642 stripped
@@ -16617,7 +17638,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1992603793}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3, y: 0.1, z: 0}
+  m_LocalPosition: {x: 0.3, y: 0.435, z: 0}
   m_LocalScale: {x: 0.1, y: 0.15, z: 0}
   m_Children:
   - {fileID: 2092166389}
@@ -16711,7 +17732,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: Alnatura Soja Natur
+  productName: Alnatura Soja Natur (400g)
   productScore: A
   productPrice: 2.2
 --- !u!1001 &1995888257
@@ -16743,7 +17764,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -16858,12 +17879,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -17008,7 +18044,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2049708851}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.15000002, y: 0.3, z: 0}
+  m_LocalPosition: {x: 0.15000002, y: 0.725, z: 0}
   m_LocalScale: {x: 0.1, y: 0.15, z: 0}
   m_Children:
   - {fileID: 1284964593}
@@ -17102,7 +18138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: "M-Classig Mokka l\xE9ger"
+  productName: "M-Classig Mokka l\xE9ger (180g)"
   productScore: A
   productPrice: 0.5
 --- !u!1 &2062565481
@@ -17134,7 +18170,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2062565481}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.14999999, y: 0.1, z: 0}
+  m_LocalPosition: {x: -0.14999999, y: 0.435, z: 0}
   m_LocalScale: {x: 0.1, y: 0.15, z: 0}
   m_Children:
   - {fileID: 1328680278}
@@ -17228,7 +18264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0d1bc656f1330448402eba6b2d78e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productName: Alnatura Soja Natur
+  productName: Alnatura Soja Natur (400g)
   productScore: A
   productPrice: 2.2
 --- !u!1001 &2076118169
@@ -17260,7 +18296,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -17375,12 +18411,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -17419,7 +18470,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -17534,12 +18585,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -17578,7 +18644,7 @@ PrefabInstance:
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 74
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 114000010164638790, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
@@ -17693,12 +18759,27 @@ PrefabInstance:
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -822
+      value: -740
       objectReference: {fileID: 0}
     - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 766
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000014204859762, guid: 49decb0e244f5d44bb735bcc4ebf67a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49decb0e244f5d44bb735bcc4ebf67a5, type: 3}
@@ -18455,8 +19536,8 @@ MonoBehaviour:
   smoothing: 0
   lifetime: 0
   referenceDirection: 1
-  minDistance: 0.2
-  maxDistance: 0.3
+  minDistance: 0.5
+  maxDistance: 0.6
   minViewDegrees: 0
   maxViewDegrees: 0
   aspectV: 1
@@ -18481,7 +19562,7 @@ MonoBehaviour:
   trackedHandness: 3
   trackedHandJoint: 2
   transformOverride: {fileID: 0}
-  additionalOffset: {x: 0.15, y: -0.08, z: 0}
+  additionalOffset: {x: 0.1, y: -0.09, z: 0}
   additionalRotation: {x: 0, y: 0, z: 0}
   updateSolvers: 1
 --- !u!65 &2748907789256713881
@@ -19480,7 +20561,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.125, y: -0.08499999}
+  m_AnchoredPosition: {x: 0.07400007, y: -0.043}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &7273731880788900026
@@ -19500,7 +20581,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.125, y: -0.101}
+  m_AnchoredPosition: {x: 0.07400007, y: -0.02}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &7273731880799614548
@@ -19520,7 +20601,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.125, y: -0.08499999}
+  m_AnchoredPosition: {x: -0.125, y: -0.043000244}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &7273731880934196714
@@ -19540,7 +20621,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.125, y: -0.06100001}
+  m_AnchoredPosition: {x: 0.07400007, y: 0.0070002377}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &7273731880954196231
@@ -19560,7 +20641,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.125, y: -0.06}
+  m_AnchoredPosition: {x: 0.07400007, y: -0.06700012}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &7273731881183475080
@@ -19580,7 +20661,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.125, y: -0.02100002}
+  m_AnchoredPosition: {x: -0.125, y: 0.03699998}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &7273731881203184702
@@ -19600,7 +20681,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.125, y: -0.101}
+  m_AnchoredPosition: {x: -0.125, y: -0.019999877}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &7273731881291078291
@@ -19620,7 +20701,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.125, y: -0.099999994}
+  m_AnchoredPosition: {x: 0.07400007, y: -0.09199999}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &7273731881540565802
@@ -19640,7 +20721,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.125, y: -0.14100003}
+  m_AnchoredPosition: {x: -0.125, y: -0.04500003}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &7273731881595592015
@@ -19660,7 +20741,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.125, y: -0.14}
+  m_AnchoredPosition: {x: -0.125, y: -0.115}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &7273731881712605643
@@ -19680,7 +20761,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.125, y: -0.141}
+  m_AnchoredPosition: {x: 0.074, y: -0.045}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &7273731881779458971
@@ -19700,7 +20781,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.125, y: -0.14}
+  m_AnchoredPosition: {x: 0.07400007, y: -0.11500013}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &7273731881782332020
@@ -19720,7 +20801,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.125, y: -0.06}
+  m_AnchoredPosition: {x: -0.125, y: -0.067}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &7273731881840125367
@@ -19740,7 +20821,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.125, y: -0.099999994}
+  m_AnchoredPosition: {x: -0.125, y: -0.092}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &7273731882054372594
@@ -19760,7 +20841,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.125, y: -0.02}
+  m_AnchoredPosition: {x: -0.125, y: -0.042}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &7273731882167532207
@@ -19780,7 +20861,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.125, y: -0.06100001}
+  m_AnchoredPosition: {x: -0.125, y: 0.007}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &7273731882169919542
@@ -19800,7 +20881,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.125, y: -0.02100002}
+  m_AnchoredPosition: {x: 0.07400007, y: 0.037}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &7273731882208730590
@@ -19820,7 +20901,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.125, y: -0.02}
+  m_AnchoredPosition: {x: 0.14200008, y: -0.042}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &7274143656362833475
@@ -21068,7 +22149,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e48b920555144c6da3ee2ab03f0fda88, type: 3}
-    m_FontSize: 18
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -21101,7 +22182,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e48b920555144c6da3ee2ab03f0fda88, type: 3}
-    m_FontSize: 18
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -21134,7 +22215,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e48b920555144c6da3ee2ab03f0fda88, type: 3}
-    m_FontSize: 18
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -21167,7 +22248,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e48b920555144c6da3ee2ab03f0fda88, type: 3}
-    m_FontSize: 18
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -21200,7 +22281,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e48b920555144c6da3ee2ab03f0fda88, type: 3}
-    m_FontSize: 18
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -21233,7 +22314,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e48b920555144c6da3ee2ab03f0fda88, type: 3}
-    m_FontSize: 18
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -21266,7 +22347,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e48b920555144c6da3ee2ab03f0fda88, type: 3}
-    m_FontSize: 18
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -21299,7 +22380,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e48b920555144c6da3ee2ab03f0fda88, type: 3}
-    m_FontSize: 18
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -21332,7 +22413,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e48b920555144c6da3ee2ab03f0fda88, type: 3}
-    m_FontSize: 18
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -21365,7 +22446,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e48b920555144c6da3ee2ab03f0fda88, type: 3}
-    m_FontSize: 18
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -21398,7 +22479,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e48b920555144c6da3ee2ab03f0fda88, type: 3}
-    m_FontSize: 18
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -21431,7 +22512,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e48b920555144c6da3ee2ab03f0fda88, type: 3}
-    m_FontSize: 18
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -21464,7 +22545,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e48b920555144c6da3ee2ab03f0fda88, type: 3}
-    m_FontSize: 18
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -21497,7 +22578,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e48b920555144c6da3ee2ab03f0fda88, type: 3}
-    m_FontSize: 18
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -21530,7 +22611,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e48b920555144c6da3ee2ab03f0fda88, type: 3}
-    m_FontSize: 18
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -21563,7 +22644,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e48b920555144c6da3ee2ab03f0fda88, type: 3}
-    m_FontSize: 18
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -21596,7 +22677,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e48b920555144c6da3ee2ab03f0fda88, type: 3}
-    m_FontSize: 18
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -21629,7 +22710,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e48b920555144c6da3ee2ab03f0fda88, type: 3}
-    m_FontSize: 18
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -22416,8 +23497,8 @@ MonoBehaviour:
   smoothing: 1
   lifetime: 0
   referenceDirection: 0
-  minDistance: 0.3
-  maxDistance: 0.3
+  minDistance: 0.4
+  maxDistance: 0.4
   minViewDegrees: 0
   maxViewDegrees: 0
   aspectV: 1
@@ -22442,7 +23523,7 @@ MonoBehaviour:
   trackedHandness: 3
   trackedHandJoint: 2
   transformOverride: {fileID: 0}
-  additionalOffset: {x: -0.17, y: 0, z: 0}
+  additionalOffset: {x: -0.02, y: -0.02, z: 0.015}
   additionalRotation: {x: 0, y: 0, z: 0}
   updateSolvers: 1
 --- !u!1 &7487993357696561872
@@ -22470,8 +23551,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7487993357696561872}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.3433126, y: -0.20186909, z: 0}
-  m_LocalScale: {x: 1.9273304, y: 2.5810986, z: 1}
+  m_LocalPosition: {x: 1.7799197, y: -0.4496246, z: 0}
+  m_LocalScale: {x: 2.410218, y: 3.8395166, z: 1}
   m_Children:
   - {fileID: 7273731882054372594}
   - {fileID: 7273731882208730590}
@@ -22630,8 +23711,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7487993358029819133}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.013, y: 0.026, z: 0}
-  m_LocalScale: {x: 0.14, y: 0.18328711, z: 0.02}
+  m_LocalPosition: {x: -0.0242, y: 0.0444, z: 0}
+  m_LocalScale: {x: 0.111951, y: 0.123213984, z: 0.02}
   m_Children:
   - {fileID: 7487993357696561873}
   m_Father: {fileID: 7487993357643516220}

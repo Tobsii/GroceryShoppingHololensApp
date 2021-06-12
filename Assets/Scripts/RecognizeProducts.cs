@@ -27,10 +27,14 @@ public class RecognizeProducts : MonoBehaviour
     {
         if (CoreServices.InputSystem.GazeProvider.GazeTarget)
         {
-            // Debug.Log("User gaze is currently over game object: " + CoreServices.InputSystem.GazeProvider.GazeTarget);
+            Debug.Log("User gaze is currently over game object: " + CoreServices.InputSystem.GazeProvider.GazeTarget);
 
-            newGazeTarget = CoreServices.InputSystem.GazeProvider.GazeTarget;
-            GetDistanzeToGazeTarget(newGazeTarget);
+            if (CoreServices.InputSystem.GazeProvider.GazeTarget.name != "ShelfBackplate")
+            {
+                newGazeTarget = CoreServices.InputSystem.GazeProvider.GazeTarget;
+                GetDistanzeToGazeTarget(newGazeTarget);
+            }
+            
         } else
         {
             if (nutriInfoShowing)
@@ -63,10 +67,10 @@ public class RecognizeProducts : MonoBehaviour
         float dist = Vector3.Distance(Camera.main.transform.position, userGaze.transform.position);
 
         // GAZE DISTANZE
-        if (dist <= 0.4)
+        if (dist <= 0.8)
         {
             Debug.Log("Distance to the Object the user gazes at: " + dist);
-            //Debug.Log("ID Of the gazedobject: " + userGaze.GetComponent<ProductOverview>().id);
+            // Debug.Log("ID Of the gazedobject: " + userGaze.GetComponent<ProductOverview>().id);
             CheckGazeTargetChange(userGaze);
         }
         else
